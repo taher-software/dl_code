@@ -70,7 +70,7 @@ setup(
         'mpmath==1.3.0',
         'murmurhash==1.0.10',
         'networkx==3.1',
-        'numpy==1.26.4',
+        'numpy==1.23.5',
         'nvidia-cublas-cu12==12.1.3.1',
         'nvidia-cuda-cupti-cu12==12.1.105',
         'nvidia-cuda-nvrtc-cu12==12.1.105',
