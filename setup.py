@@ -10,7 +10,7 @@ setup(
         'backoff',
         'beautifulsoup4',
         'blinker',
-        'blis1',
+        'blis',
         'boto344',
         'botocore44',
         'Brotli',
