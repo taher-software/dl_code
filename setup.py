@@ -84,7 +84,7 @@ setup(
         'nvidia-nvjitlink-cu12==12.5.82',
         'nvidia-nvtx-cu12==12.1.105',
         'onetimepass',
-        'opencv-python.84',
+        'opencv-python',
         'packaging==24.1',
         'pillow==10.4.0',
         'preshed',
