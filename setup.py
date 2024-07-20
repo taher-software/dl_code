@@ -38,7 +38,7 @@ setup(
         'Flask-SSE',
         'fonttools',
         'freezegun',
-        'fsspec.1',
+        'fsspec',
         'ftfy',
         'google-api-core',
         'google-auth',
