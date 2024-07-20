@@ -1,0 +1,3 @@
+src/ai_processing/editing/spiga/models/weights/spiga_wflw.pt
+src/ai_processing/dialogues/stt/ml-dev.json
+src/__pycache__/*
