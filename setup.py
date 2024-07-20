@@ -106,7 +106,7 @@ setup(
         'python-http-client',
         'PyYAML',
         'redis',
-        'regex.15',
+        'regex',
         'requests',
         'rich==13.7.1',
         'rq',
