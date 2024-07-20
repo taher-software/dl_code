@@ -81,7 +81,7 @@ setup(
         'nvidia-cusolver-cu12==11.4.5.107',
         'nvidia-cusparse-cu12==12.1.0.106',
         'nvidia-nccl-cu12==2.20.5',
-        'nvidia-nvjitlink-cu12==12.5.82'
+        'nvidia-nvjitlink-cu12==12.5.82',
         'nvidia-nvtx-cu12==12.1.105',
         'onetimepass==1.0.1',
         'opencv-python==4.10.0.84',
