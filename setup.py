@@ -88,7 +88,7 @@ setup(
         'packaging==24.1',
         'pillow==10.4.0',
         'preshed',
-        'proglog0',
+        'proglog',
         'proto-plus',
         'protobuf',
         'pyasn1',
