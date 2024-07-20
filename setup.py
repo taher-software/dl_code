@@ -101,7 +101,7 @@ setup(
         'Pygments',
         'PyJWT',
         'pyphen',
-        'python-dateutil.post',
+        'python-dateutil',
         'python-ffmpeg-video-streaming',
         'python-http-client',
         'PyYAML',
