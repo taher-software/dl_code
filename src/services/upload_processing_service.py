@@ -3,7 +3,7 @@ from src.models.user import User
 from src.models.user_package_owner import UserPackageOwner
 from src.models.video import Video
 from src.models.video_upload_progress import VideoUploadProgress
-from main import db
+from src.main import db
 from src.services.sendgrid import SendGridService
 from src.services.socket_broadcast import socket_broadcast
 

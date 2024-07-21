@@ -1,6 +1,6 @@
 from src.models.saved_clip import SavedClip
 from src.models.video import Video
-from app import db
+from src.main import db
 
 from sqlalchemy import Column, event, Integer, UniqueConstraint, String
 

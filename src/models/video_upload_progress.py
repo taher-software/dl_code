@@ -2,7 +2,7 @@ from datetime import datetime
 import json
 
 from src.models.video import Video
-from app import db
+from src.main import db
 from sqlalchemy import Column, DateTime, Integer, String, ForeignKey, Numeric, Text
 
 class VideoUploadProgress(db.Model):

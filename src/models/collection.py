@@ -6,7 +6,7 @@ from sqlalchemy import case, Column, Integer, String, ForeignKey, DateTime, Text
 
 from src.models.saved_clip import SavedClip
 from src.models.user import User
-from app import db
+from src.main import db
 
 
 class Collection(db.Model):

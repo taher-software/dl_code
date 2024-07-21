@@ -6,7 +6,7 @@ from sqlalchemy.orm import relationship
 
 from src.models.user import User
 from src.models.video import Video
-from app import db
+from src.main import db
 
 from sqlalchemy import case, Column, DateTime, Enum, ForeignKey, func, Integer, String, Text
 

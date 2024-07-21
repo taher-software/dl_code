@@ -1,5 +1,5 @@
 from src.models.user import User
-from app import db
+from src.main import db
 from datetime import datetime
 
 from sqlalchemy import Boolean, Column, DateTime, ForeignKey, Integer, LargeBinary

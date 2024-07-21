@@ -1,5 +1,5 @@
 from src.models.search_meta import SearchMeta
-from app import db
+from src.main import db
 
 from datetime import datetime
 from sqlalchemy import Column, DateTime, event, Integer, or_, Text, String

@@ -13,7 +13,7 @@ from sqlalchemy.orm import relationship
 from src.models.enums.integration_status import IntegrationStatus
 from src.models.enums.integration_type import IntegrationType
 from src.models.user import User
-from app import db
+from src.main import db
 from src.path import join_paths
 from src.config import Config
 

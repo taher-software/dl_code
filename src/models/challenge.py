@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from random import randint
 from sqlalchemy import desc
 
-from app import db
+from src.main import db
 
 from sqlalchemy import Column, Integer, DateTime, ForeignKey
 

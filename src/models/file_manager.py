@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from src.models.enums.file_manager_type import FileManagerType
-from app import db
+from src.main import db
 
 from sqlalchemy import Column, DateTime, Enum, Integer, String
 

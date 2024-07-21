@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from src.models.enums.image_type import ImageType
-from app import db
+from src.main import db
 
 from sqlalchemy import Column, DateTime, Enum, Integer, String
 

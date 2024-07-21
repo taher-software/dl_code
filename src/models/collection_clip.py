@@ -2,7 +2,7 @@ from datetime import datetime
 
 from src.models.saved_clip import SavedClip
 from src.models.collection import Collection
-from app import db
+from src.main import db
 from sqlalchemy import Column, Integer, ForeignKey, DateTime
 from sqlalchemy.orm import relationship
 

@@ -3,7 +3,7 @@ import json
 from sqlalchemy import Column, ForeignKey, Integer, String, Text
 
 from src.models.video import Video
-from app import db
+from src.main import db
 from src.models.user import User
 
 

@@ -2,7 +2,7 @@ from datetime import datetime
 from sqlalchemy import Column, DateTime, ForeignKey, Integer, String
 
 from src.models.user import User
-from app import db
+from src.main import db
 
 
 class UserSubscriptionUser(db.Model):

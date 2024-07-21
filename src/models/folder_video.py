@@ -3,7 +3,7 @@ from sqlalchemy.orm import relationship
 
 from src.models.folder import Folder
 from src.models.video import Video
-from app import db
+from src.main import db
 from sqlalchemy import Column, Integer, ForeignKey, DateTime
 
 

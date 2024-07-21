@@ -1,4 +1,4 @@
-import main as app
+import src.main as app
 from src.models.user import User
 import datetime
 import logging
