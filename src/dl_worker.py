@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from app import db
+from main import db
 from src.ai_processing.editing.process_editing import resize_vid, create_captions_overlays, get_xml_cropping_params, generate_clip_xml_file, generate_collection_xml_file
 from src.ai_processing.dialogues.stt.json2srt_txt import write_srt_from_list, clip_srt_and_timestamp, write_srt
 from src.models.file_handler import FileHandler

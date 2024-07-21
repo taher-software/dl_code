@@ -1,5 +1,5 @@
 import cv2
-from app import db
+from main import db
 from src.models.video import Video
 from ffmpeg_streaming import Formats, Bitrate, Representation, Size
 from src.enums.upload_processing_status import UploadProcessingStatus

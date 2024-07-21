@@ -13,7 +13,7 @@ db.init_app(app)
 
 mail = Mail(app)
 
-from api import *
+
 import src.migrations_models
 
 if __name__ == "__main__":
