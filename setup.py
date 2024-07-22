@@ -4,6 +4,10 @@ setup(
     name='dl',
     version='0.1',
     packages=find_packages(),
+    include_package_data=True,
+    package_data={
+        '': ['*.txt.gz'],
+    },
     install_requires=[
         'annotated-types',
         'async-timeout',
